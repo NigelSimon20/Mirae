@@ -1,7 +1,9 @@
+"use client";
+
 import { useCallback, MouseEvent } from "react";
 import { motion } from "framer-motion";
 
-export default function MiraeDownload(): JSX.Element {
+export default function MiraeDownload() {
   const handleAppleDownload = useCallback((e: MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     // Replace with actual App Store URL
