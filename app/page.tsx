@@ -51,7 +51,7 @@ export default function MiraeDownload() {
           <motion.a
             whileHover={{ y: -4, scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            href="#"
+            href="https://expo.dev/artifacts/eas/tpCBMkVg5asSuU3ZdyifiB.apk"
             onClick={handleAndroidDownload}
             className="flex items-center gap-3 px-6 py-4 rounded-xl bg-white/15 backdrop-blur-md border-2 border-white/30 text-lg font-medium min-w-[180px] transition-all hover:bg-white/25 hover:border-white/50 shadow-md"
           >
